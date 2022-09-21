@@ -318,7 +318,7 @@ footer .footer{
 
 }
 
-@media (max-width: 620px) {
+@media (max-width: 800px) {
     .flex-container{
         flex-direction: column;
         width: 100%;
@@ -352,8 +352,12 @@ footer .footer{
         width: auto;
     }
 
-    .apresentacao img{
-        max-width: 100%;
+    .imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        opacity: 70%;
     }
 
     .texto-apresentacao{
