@@ -317,3 +317,74 @@ footer .footer{
     }
 
 }
+
+@media (max-width: 620px) {
+    .flex-container{
+        flex-direction: column;
+    }
+
+    header {
+        width: auto;
+        height: 20vh;
+        flex-direction: row;
+    }
+
+    .list-items {
+        display: flex;
+        align-self: flex-end;
+        min-width: 40%; 
+    }
+
+    .list-items li{
+        padding: 0;
+        margin: 0;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao .texto-apresentacao{
+        width: auto;
+    }
+
+    .apresentacao img{
+        max-width: 500px;
+    }
+
+    #quem-somos{
+        flex-direction: column-reverse;
+        max-width: 50%;
+        padding-bottom: 20px;
+    }
+
+    #quem-somos img{
+        min-width: 100px;
+        margin: auto;
+    }
+
+    .list-servicos{
+        flex-direction: column;
+    }
+
+    .resultado-content{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 20px;
+    }
+
+    .resultado-content{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #contato{
+        align-items: flex-start;
+        height: 70vh;
+    }
+
+
+    
+}
