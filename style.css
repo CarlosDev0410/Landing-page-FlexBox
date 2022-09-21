@@ -28,7 +28,7 @@ div img{
 }
 
 header{
-    background-color: #122A57;
+    background-color: rgb(40, 48, 61);
     height: 100px;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ header{
 
 header .list-items{
     display: flex;
-    max-width: 260px;
+    max-width: 400PX;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -45,30 +45,55 @@ header .list-items{
 
 .list-items li a{
     color: #fff;
+    padding: 3px;
+}
+
+.list-items li a:hover{
+    color: #03e9f4;
+    background: rgb(40, 48, 61);
+    
+}
+
+header img{
+    justify-content: flex-start;
+    width: 110px;
 }
 
 header .menu{
     justify-content: space-between;
+    min-width: 85%
 }
 
 .apresentacao{
     height: 100vh;
+    min-width: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-image: url(./images/fundo-de-formas-abstratas-brancas_79603-1362.webp);
+}
+
+.apresentacao img{
+    border-radius: 50px;
+    min-width: 420px;
+    max-width: 700px;
+    box-shadow: 8px 10px 15px 10px rgba(40, 48, 61, 0.77);
 }
 
 .apresentacao .texto-apresentacao{
     min-height: 200px;
+    padding-right: 0%;
+    
 }
 
 .texto-apresentacao h1{
-    color: #122A57;
+    color: rgb(40, 48, 61);
     font-size: 48px;
     margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn{
-    background-color: #122A57;
+    background-color: rgb(40, 48, 61);
     color: #fff;
     text-align: center;
     border-radius: 30px;
@@ -77,44 +102,55 @@ header .menu{
     text-decoration: none;
     height: 50px;
     line-height: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.btn:hover{
+    color: rgb(40, 48, 61);
+    background-color: #03e9f4;
 }
 
 #quem-somos{
-    flex-direction: row-reverse;
+    min-width: 80%;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0 10% 0 10%;
+    background-color: #e5e7e7;
 }
 
-#quem-somos h2{
+.quem-somos-itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.quem-somos-itens h2{
+    margin-left: 10%;
+    width: 80%;
     font-size: 32px;
-    color: #122A57;
+    color: rgb(40, 48, 61);
     display: flex;
     margin-bottom: 20px;
+    
 }
 
-#quem-somos h2::before{
-    content: "";
-    height: 50px;
-    width: 10px;
-    margin-right: 5px;
-    background-color: #122A57;
-    position: relative;
-    border-radius: 10%;
-}
+.quem-somos-itens p{
+    margin-left: 10%;
+    width: 80%;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-#quem-somos p{
-    margin-bottom: 10px;
-    width: 90%;
 }
 
 #quem-somos img{
-    min-width: 420px;
+    min-width: 450px;
+    max-width: 500px;
 }
 
 .container-externo{
-    background-color: #122A57;
+    background-color: rgb(40, 48, 61);
     width: 100%;
 }
 
@@ -122,6 +158,10 @@ header .menu{
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 100px;
+    display: flex;
+    margin: auto;
+    width: 85%;
+    min-width: 320px;
 }
 
 #servicos h2{
@@ -139,26 +179,18 @@ header .menu{
     text-align: center;
 }
 
-.item-servicos a{
-    width: 220px;
-    background-color: #fff;
-    border-radius: 30px;
-    height: 50px;
-    text-align: center;
-    margin-top: 20px;
-    line-height: 50px;
-    padding: 5px;
-    color: #122A57;
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: 700;
-}
-
 .item-servicos p{
-    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     color: #fff;
+}
+
+.item-servicos h3{
+    font-weight: 700;
+    font-size: 21px;
+    color: #03e9f4;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .item-servicos img{
@@ -166,85 +198,77 @@ header .menu{
    margin: auto; 
 }
 
-#planos{
+#resultado{
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
+    max-height: 100vh;
     padding-top: 50px;
+    background-image: url(./images/fundo-de-formas-abstratas-brancas_79603-1362.webp);
 }
 
-#planos h2{
-    font-size: 32px;
-}
-
-.list-planos{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.item-plano{
-    flex: 1;
-    border: 5px solid #122A57;
-    margin-right: 20px;
-    padding: 10px;
-    max-width: 240px;
-}
-
-.item-plano .btn{
+.resultado-content{
+    align-items: center;
+    justify-content: space-around;
     margin: auto;
+    width: 85%;
+    min-width: 320px;
+}
+
+.resultado-content h1{
+    font-size: 40px;
+    color: rgb(40, 48, 61);
+    margin-bottom: 15px;
+}
+
+.resultado-content p{
+    font-size: 30px;
+    color: rgb(40, 48, 61);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    padding-top: 50px;
+    background-color: #e5e7e7;
+}
+
+#contato h1{
+    color: rgb(40, 48, 61);
     margin-bottom: 20px;
 }
 
-.item-plano h3{
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 20px;
+#contato h2{
+    color: rgb(40, 48, 61);
+    margin-bottom: 20px
 }
 
-.item-plano h3::after{
-    content: "";
-    background-color: #122A57;
-    width: 100%;
-    height: 3px;
-    margin-top: 20px;
+#contato p{
+    color: rgb(40, 48, 61);
     margin-bottom: 10px;
-}
-
-.item-plano ul{
-    padding: 10px 20px;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-.item-plano ul li{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.item-plano ul li::before{
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #122A57;
-    margin-right: 5px;
+#contato p img{
+    margin-left: 20px;
+    width: 30px;
 }
 
 footer{
-    background-color: #122A57;
-    height: 70px;
+    background-color: rgb(40, 48, 61);
+    height: 60px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 footer .footer{
-    justify-content: space-between;
     color: #fff;
 }
+
 
 /*Mobile*/
 @media(max-width: 992px){
@@ -265,7 +289,7 @@ footer .footer{
     }
 
     #quem-somos img{
-        min-width: 320px;
+        min-width: 100px;
         margin: auto;
     }
 
@@ -278,13 +302,13 @@ footer .footer{
         margin: auto;
     }
 
-    .list-planos{
+    .resultado-content{
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 20px;
     }
 
-    .list-planos .item-plano{
+    .resultado-content{
         max-width: 90%;
         margin: auto;
         width: 100%;
