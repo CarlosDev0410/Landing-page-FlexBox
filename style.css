@@ -293,9 +293,15 @@ footer .footer{
 /*Mobile*/
 @media only screen and (max-width: 700px) {
 
+    body{
+        width: max-content;
+        height: 100%;
+    }
+
     .flex-container{
         flex-direction: column;
         width: 100%;
+        height: auto;
     }
 
     header {
