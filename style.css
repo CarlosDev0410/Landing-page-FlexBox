@@ -290,7 +290,7 @@ footer .footer{
 
 
 /*Mobile*/
-@media (max-width: 720px) {
+@media (max-width: 480px) and (min-width: 320px) {
 
     .flex-container{
         flex-direction: column;
