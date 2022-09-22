@@ -1,7 +1,6 @@
 html{
     display: block;
-    min-width: auto;
-    min-height: auto;
+    max-width: 100%;
 }
 
 *{
@@ -82,9 +81,8 @@ header .menu{
 }
 
 .apresentacao img{
+    width: 100%;
     border-radius: 50px;
-    min-width: 420px;
-    max-width: 700px;
     box-shadow: 8px 10px 15px 10px rgba(40, 48, 61, 0.77);
 }
 
@@ -156,7 +154,7 @@ header .menu{
 }
 
 #quem-somos img{
-    width: 400px;
+    width: 100%;
 }
 
 .container-externo{
@@ -275,12 +273,11 @@ header .menu{
 
 .lista-contato p{
     color: rgb(40, 48, 61);
-    width: 50%;
     font-size: 20px;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.lista-contato p img{
+.lista-contato a img{
     margin-left: 20px;
     width: 30px;
 }
@@ -302,17 +299,13 @@ footer .footer{
 /*Mobile*/
 @media only screen and (max-width: 700px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        width: auto;
-        height: auto;
+    html{
+        width: 100%;
     }
 
     body{
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     .flex-container{
@@ -323,7 +316,7 @@ footer .footer{
 
     header {
         display: flex;
-        height: 70vh;
+        height: 80vh;
     }
 
     .menu{
@@ -353,11 +346,12 @@ footer .footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60%;
-        opacity: 20%;
+        max-width: 70%;
+        opacity: 15%;
         padding-bottom: 30px;
     }
 
+    
     #quem-somos{
         width: 100%;
     }
@@ -371,7 +365,7 @@ footer .footer{
     }
 
     .quem-somos-content img{
-        width: 80%;
+        width: 50%;
     }
 
     .container-externo{
@@ -425,9 +419,9 @@ footer .footer{
 
     .lista-contato{
         width: 100%;
-        display: flex;
+        justify-content: flex-start;
         flex-direction: column;
-        text-align: center;
+        font-size: 18px;
     }
     
     footer{
