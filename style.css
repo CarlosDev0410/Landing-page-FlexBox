@@ -300,8 +300,8 @@ footer .footer{
 
     .flex-container{
         flex-direction: column;
-        width: 100%;
-        height: auto;
+        width: max-content;
+        height: max-content;
     }
 
     header {
@@ -321,7 +321,7 @@ footer .footer{
     }
 
     .apresentacao{
-        width: 100%;
+        width: max-content;
         flex-direction: column-reverse;
     }
 
@@ -342,7 +342,7 @@ footer .footer{
     }
 
     #quem-somos{
-        width: 100%;
+        width: max-content;
     }
 
     .quem-somos-content{
@@ -358,7 +358,7 @@ footer .footer{
     }
 
     .container-externo{
-        width: 100%;
+        width: max-content;
         height: max-content;
     }
 
@@ -367,7 +367,7 @@ footer .footer{
         flex-direction: column;
         align-items: center;
         height: max-content;
-        width: 100%;
+        width: max-content;
         margin-top: 20px;
     }
 
@@ -380,7 +380,7 @@ footer .footer{
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: max-content;
         height: max-content;
     }
 
@@ -391,7 +391,7 @@ footer .footer{
     }
 
     #contato{
-        width: 100%;
+        width: max-content;
         height: max-content;
         display: flex;
         flex-direction: column;
@@ -414,7 +414,7 @@ footer .footer{
     }
     
     footer{
-        width: 100%;
+        width: max-content;
     }
 
     
