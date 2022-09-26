@@ -363,7 +363,6 @@ footer p{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: ;
     }
 
     .texto-apresentacao{
@@ -458,8 +457,6 @@ footer p{
     #container-resultado{
         width: 100%;
         height: 100vh;
-        display: flex;
-        padding-top: 20px;
     }
 
     .conteudo-resultado{
@@ -467,6 +464,9 @@ footer p{
         height: 100%;
         align-items: center;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .conteudo-resultado h1{
@@ -476,14 +476,16 @@ footer p{
 
     #container-contato{
         width: 100%;
-        height: 70vh;
+        height: 60vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .texto-contato{
-        width: 80%;
+        width: 100%;
+        height: 50%;
         box-shadow: none;
+        border-bottom: 1px dashed rgb(40, 48, 61);
     }
 
     .texto-contato h1{
@@ -497,6 +499,7 @@ footer p{
 
     .lista-contato{
         width: 90%;
+        height: 40%;
         display: flex;
         justify-content: center;
     }
@@ -508,6 +511,7 @@ footer p{
     .lista-contato a {
         font-size: 16px;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .lista-contato img{
