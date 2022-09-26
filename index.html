@@ -3,113 +3,122 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
     <title>R D B Consultoria</title>
+    <meta name="Description" content="Consultoria em gestão de manutenção">
+
+    <!--SCREEN-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Eduardo">
+    
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <!--Cabeçalho / Menu-->
     <header>
-        <div class="flex-container menu">
-            <div>
-                <img src="./images/logo_sem_fundo.png">
-            </div>
-            <ul class="list-items">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#quem-somos">QUEM SOMOS</a></li>
-                <li><a href="#servicos">ASSESSORIA</a></li>
-                <li><a href="#contato">CONTATO</a></li>
-            </ul>
+        <div class="menu">
+            <img src="./images/logo_sem_fundo.png">
+            
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#container-quem-somos">QUEM SOMOS</a></li>
+                    <li><a href="#container-servicos">ASSESSORIA</a></li>
+                    <li><a href="#container-contato">CONTATO</a></li>
+                </ul>
+            </nav>
         </div>
         
     </header>
+    <!--Conteúdo da pagina-->    
+    <main>
+        <!--Apresentação-->
+        <div id="container-apresentacao">
 
-    <div class="flex-container apresentacao">
-        <div class="texto-apresentacao">
-            <h1>Consultoria em <br> Gestão de <br> Manutenção</h1>
-            <p>O melhor serviço para você!</p>
-            <a href="#servicos" class="btn">Saiba Mais!</a>
+            <div class="texto-apresentacao">
+                <h1>Consultoria em Gestão<br>de Manutenção</h1>
+                <p>O melhor serviço para você!</p>
+                <a href="#servicos" class="btn">Saiba Mais!</a>
+            </div>
+
+            <div class="imagem-apresentacao">
+                <img src="./images/Apresentacao.jpg" alt="banner de apresentação">
+            </div>
         </div>
-
-        <div class="imagem">
-            <img src="./images/Apresentacao.jpg" alt="banner de apresentação">
-        </div>
-    </div>
-
-    <div class="flex-container" id="quem-somos">
-        <div class="quem-somos-content">
+        <!--Quem Somos-->
+        <div id="container-quem-somos">
             <div class="quem-somos-texto">
-                <h2>Quem somos</h2>
+                <h2>Quem somos!</h2>
                 <p>Mais de 20 anos atuando no mercado de frotas de grande porte, principalmente na gestâo de ônibus urbanos, aplicando metodologia de manutenção inteligente com resultados positivos e conquista de diminuição imediata no orçamento do setor.<br>
                     <br>Ênfase na capacitação profissional com métodos e ferramentas que propiciam a qualificação profissional da equipe.<br>
                     <br>Os inúmeros desafios vencidos na área de manutenção e gestâo de equipe nos capacitou de forma a transmitir nossos conhecimentos e espertizes no setor.                
             </div>
 
-            <div>
+            <div class="quem-somos-imagem">
                 <img src="./images/quem-somos-removebg-preview.png" alt="balcão de atendimento">
             </div> 
         </div>
-    </div>
+        <!--Serviços-->
+        <div id="container-servicos">
 
-    <div class="container-externo">
-        <div id="servicos">
-            <div>
-                <h2>Assessoria</h2>
+            <div class="servicos">
+                    <h1>Assessoria</h1>
             </div>
-    
-            <div class="list-servicos">
+
+            <div class="lista-servicos">
                 <div class="item-servicos">
-                    <div><h3>INVESTIGAÇÃO</h3></div>
+                    <h3>INVESTIGAÇÃO</h3>
                     <p> Avaliação criteriosa em todos os segmentos
                         direta e indiretamente ligados à área de
                         manutenção para detectar a(s) fonte(s) de
                         prejuízo e sangrias.</p>
                 </div>
-    
+
                 <div class="item-servicos">
-                    <div><h3>RELATÓRIO</h3></div>
+                    <h3>RELATÓRIO</h3>
                     <p> Emissão de Parecer Técnico minunsioso demonstrando
                         os desvios e respectivas estratégias para a resolução
                         do problema.</p>
                 </div>
 
                 <div class="item-servicos">
-                    <div><h3>TREINAMENTO</h3></div>
+                    <h3>TREINAMENTO</h3>
                     <p> Treinamento dos gestores e equipe na capacitação
                         estratégica e aplicação de protocolos que permitam
                         o crescimento da empresa. </p>
-                    
                 </div>
             </div>
         </div>
-    </div>
+        <!--Resultados-->
+        <div id="container-resultado">
 
-    <div class="flex-container" id="resultado">
-        <div class="resultado-content">
-            <h1>Resultado Imediato</h1> 
-            <p> Já no primeiro mês o resultado na diminuição de quebra é perceptível e evidenciado nos relatórios de custo e<br>
-                de quebras. O posicionamento da Gestão de manutenção se torna mais seguro em aplicar os procedimentos orientados, obtendo resultados mais rápidos repercurtindo na produtividade de sua equipe.</p>
-        </div>
-    </div>   
+            <div class="conteudo-resultado">
+                <h1>Resultado Imediato</h1> 
+                <p> Já no primeiro mês o resultado na diminuição de quebra é perceptível e evidenciado nos relatórios de custo e
+                    de quebras. O posicionamento da Gestão de manutenção se torna mais seguro em aplicar os procedimentos orientados, obtendo resultados mais rápidos repercurtindo na produtividade de sua equipe.</p>
+            </div>
 
-    <div id="contato">
-        <div class="texto-contato">
-            <h1>CONTATE-NOS</h1>
-            <h2>AGENDE UMA VISITA, TEREMOS O PRAZER EM COMPARTILHAR<br>NOSSA METODOLOGIA E EXPERIÊNCIAS DE SUCESSO!<h2>
-        </div>   
-        
-        <div class="lista-contato">
-            <p>TELEFONE / WHATSAPP:</p>
-            <a href="https://api.whatsapp.com/send/?phone=5521987411146&text&type=phone_number&app_absent=0">(21) 98741-1146</a><a href="https://api.whatsapp.com/send/?phone=5521987411146&text&type=phone_number&app_absent=0"><img src="images/whatsapp.png"></a>
-            <p>EMAIL:</p> 
-            <a href="mailto:ROGERIOBEM@RDBCONSULTORIA.COM.BR">ROGERIOBEM@RDBCONSULTORIA.COM.BR</a><a href="mailto:ROGERIOBEM@RDBCONSULTORIA.COM.BR"><img src="images/email.png"></a>
         </div>
-    </div>
-    
-    
+        <!--Contatos-->
+        <div id="container-contato">
+
+            <div class="texto-contato">
+                <h1>CONTATE-NOS</h1>
+                <h2>AGENDE UMA VISITA, TEREMOS O PRAZER EM COMPARTILHAR<br>NOSSA METODOLOGIA E EXPERIÊNCIAS DE SUCESSO!<h2>
+            </div>   
+            
+            <div class="lista-contato">
+                <p>TELEFONE / WHATSAPP:</p>
+                <a href="https://api.whatsapp.com/send/?phone=5521987411146&text&type=phone_number&app_absent=0">(21) 98741-1146 <img src="images/whatsapp.png"></a>
+                <p>EMAIL:</p> 
+                <a href="mailto:ROGERIOBEM@RDBCONSULTORIA.COM.BR">ROGERIOBEM@RDBCONSULTORIA.COM.BR <img src="images/email.png"></a>
+            </div>
+        </div>
+    </main>
+    <!--Rodapé-->
     <footer>
         <div class="footer"> 
-            <p>&copy; 2019 RDB Consultoria</p>
+            <p>&copy; 2022 RDB Consultoria</p>
             
         </div>
     </footer>
