@@ -396,11 +396,11 @@ footer p{
 
     #container-quem-somos{
         width: 100%;
-        height: 110vh;
+        height: 160vh;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .quem-somos-imagem{
@@ -420,7 +420,7 @@ footer p{
 
     #container-servicos{
         width: 100%;
-        height: 110vh;
+        height: 160vh;
     }
 
     .servicos{
@@ -456,10 +456,9 @@ footer p{
 
     #container-resultado{
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        padding-top: 20px;
     }
 
     .conteudo-resultado{
@@ -476,7 +475,7 @@ footer p{
 
     #container-contato{
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         display: flex;
         justify-content: space-around;
     }
@@ -496,7 +495,7 @@ footer p{
     }
 
     .lista-contato{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
     }
@@ -506,7 +505,7 @@ footer p{
     }
 
     .lista-contato a {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
 
