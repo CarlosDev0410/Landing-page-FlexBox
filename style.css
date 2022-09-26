@@ -130,7 +130,6 @@ main{
 
 .imagem-apresentacao{
     width: 40%;
-    border-radius: 50%;
 }
 
 .imagem-apresentacao img{
@@ -327,13 +326,13 @@ footer p{
 @media only screen and (max-width: 600px){
     header{
         width: 100%;
-        height: 7%;
+        height: 18vh;
         -webkit-box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 38%);
         -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
         box-shadow: 0px 4px 5px 0px rgb(0 0 0 / 38%);
     }
 
-    .menu{
+    .menu {
         width: 100%;
         height: 100%;
         display: flex;
@@ -354,19 +353,21 @@ footer p{
     }
 
     nav ul li a{
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #container-apresentacao{
         width: 100%;
-        height: 30%;
+        height: 40vh;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .texto-apresentacao{
         width: 100%;
-        height: 40%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -374,15 +375,17 @@ footer p{
     }
 
     .texto-apresentacao h1{
-        font-size: 25px;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
     .texto-apresentacao p{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .texto-apresentacao a{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     
@@ -393,23 +396,22 @@ footer p{
 
     #container-quem-somos{
         width: 100%;
-        height: 10%;
+        height: 110vh;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .quem-somos-imagem{
-        width: 80%;
-        height: 100%;
+        width: 100%;
         display: flex;
+        justify-content: center;
         justify-content: center;
     }
 
     .quem-somos-texto{
         width: 80%;
-        height: 100%;
         display: flex;
         justify-content: center;
         text-align: start;
@@ -418,11 +420,11 @@ footer p{
 
     #container-servicos{
         width: 100%;
-        height: 20%;
+        height: 110vh;
     }
 
     .servicos{
-        width: 80%;
+        width: 70%;
         height: min-content;
         display: flex;
         justify-content: flex-start;
@@ -454,7 +456,10 @@ footer p{
 
     #container-resultado{
         width: 100%;
-        height: 10%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .conteudo-resultado{
@@ -471,50 +476,47 @@ footer p{
 
     #container-contato{
         width: 100%;
-        height: 10%;
+        height: 50vh;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .texto-contato{
         width: 80%;
-        height: 100%;
         box-shadow: none;
     }
 
     .texto-contato h1{
-        font-size: 27px;
+        font-size: 30px;
         margin-top: 20px;
     }
 
     .texto-contato h2{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .lista-contato{
         width: 100%;
-        height: 100%;
         display: flex;
         justify-content: center;
-        margin-top: 30px;
     }
 
     .lista-contato p {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .lista-contato a {
-        font-size: 15px;
+        font-size: 18px;
         text-align: center;
     }
 
     .lista-contato img{
-        width: 5%;
+        width: 20px;
     }
 
     footer{
         width: 100%;
-        height: 3%;
+        height: 5vh;
         font-size: 15px;
         color: #e5e7e7;
     }
