@@ -178,7 +178,7 @@ main{
 
 #container-servicos{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-color: rgb(40, 48, 61);
     display: flex;
     flex-direction: column;
@@ -226,7 +226,7 @@ main{
 
 #container-resultado{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,7 +255,7 @@ main{
 
 #container-contato{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -264,6 +264,7 @@ main{
 }
 
 .texto-contato{
+    padding-top: 20px;
     width: 80%;
     height: 40%;
     display: flex;
@@ -348,30 +349,30 @@ footer p{
     }
 
     .menu ul{
-        margin:0;
+        margin: 0 7px 0 0 ;
         padding: 0;
     }
 
     nav ul li a{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #container-apresentacao{
         width: 100%;
-        height: 40vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: ;
     }
 
     .texto-apresentacao{
-        width: 100%;
-        height: 80%;
+        width: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 25px;
+        justify-content: center;
     }
 
     .texto-apresentacao h1{
@@ -404,7 +405,7 @@ footer p{
     }
 
     .quem-somos-imagem{
-        width: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         justify-content: center;
